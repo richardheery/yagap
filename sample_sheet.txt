@@ -1,0 +1,2 @@
+sample_id read1 read2
+SRR6344974 /data/SBCS-ademendoza/Annotations/Salpingoeca_helianthica/SRR6344974_1.fastq.gz /data/SBCS-ademendoza/Annotations/Salpingoeca_helianthica/SRR6344974_2.fastq.gz
