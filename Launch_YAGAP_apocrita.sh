@@ -12,7 +12,7 @@ module load nextflow
 
 module load use.own miniforge
 #conda activate portcullis-env
-# conda activate mikado
+conda activate mikado
 
 #ml samtools
 
