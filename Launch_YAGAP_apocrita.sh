@@ -21,4 +21,11 @@ export NXF_OPTS="-Xms8G -Xmx16G"
 genome=$1
 sample_sheet=$2
 
-nextflow run /data/home/btx717/storage/01-ademendoza/software/yagap -resume -with-trace -with-report --verbose --genome "$genome" --sr_rnaseq_reads "$sample_sheet"
+nextflow run /data/home/qp24520/git_repos/yagap \
+	-resume \
+	-with-trace \
+	-with-report yagap_report.html \
+	-ansi-log false \
+	--verbose \
+	--genome "$genome" \
+	--sr_rnaseq_reads "$sample_sheet"
