@@ -29,3 +29,5 @@ nextflow run /data/home/qp24520/git_repos/yagap \
 	--verbose \
 	--genome "$genome" \
 	--sr_rnaseq_reads "$sample_sheet"
+	
+# sbatch ~/git_repos/yagap/Launch_YAGAP_apocrita.sh /data/SBCS-ademendoza/Annotations/Salpingoeca_helianthica/Shel_hifiasm_3runs_qsub.bp.p_ctg.nobac.fasta ~/git_repos/yagap/sample_sheet.txt
